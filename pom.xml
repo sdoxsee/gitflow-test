@@ -49,6 +49,7 @@
 					</gitFlowConfig>
 					<commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
 					<useSnapshotInRelease>true</useSnapshotInRelease>
+					<useSnapshotInHotfix>true</useSnapshotInHotfix>
 					<versionDigitToIncrement>1</versionDigitToIncrement>
 
 					<commitMessages>
