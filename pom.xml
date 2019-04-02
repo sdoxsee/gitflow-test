@@ -48,6 +48,8 @@
 						<origin>origin</origin>
 					</gitFlowConfig>
 					<commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
+					<useSnapshotInRelease>true</useSnapshotInRelease>
+					<versionDigitToIncrement>2</versionDigitToIncrement>
 
 					<commitMessages>
 						<!-- since 1.2.1, see Customizing commit messages -->
