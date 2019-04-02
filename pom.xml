@@ -59,6 +59,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
+<!-- some comment made in hotfix/1.1.4 -->
 
 </project>
