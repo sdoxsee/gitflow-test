@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>gitflow-test</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.2</version>
 	<name>gitflow-test</name>
 	<description>Demo project for Spring Boot</description>
 	<packaging>pom</packaging>
@@ -47,6 +47,9 @@
 						<versionTagPrefix></versionTagPrefix>
 						<origin>origin</origin>
 					</gitFlowConfig>
+					<commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
+					<useSnapshotInRelease>true</useSnapshotInRelease>
+					<versionDigitToIncrement>1</versionDigitToIncrement>
 
 					<commitMessages>
 						<!-- since 1.2.1, see Customizing commit messages -->
