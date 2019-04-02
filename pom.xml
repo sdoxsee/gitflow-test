@@ -50,6 +50,8 @@
 					<commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
 					<useSnapshotInRelease>true</useSnapshotInRelease>
 					<versionDigitToIncrement>1</versionDigitToIncrement>
+					<!-- push to remote on release-start for example -->
+					<pushRemote>true</pushRemote>
 
 					<commitMessages>
 						<!-- since 1.2.1, see Customizing commit messages -->
