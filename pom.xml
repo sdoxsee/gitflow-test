@@ -47,6 +47,7 @@
 						<versionTagPrefix></versionTagPrefix>
 						<origin>origin</origin>
 					</gitFlowConfig>
+					<commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
 
 					<commitMessages>
 						<!-- since 1.2.1, see Customizing commit messages -->
