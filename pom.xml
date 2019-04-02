@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>gitflow-test</artifactId>
-	<version>1.3.3</version>
+	<version>1.4.0</version>
 	<name>gitflow-test</name>
 	<description>Demo project for Spring Boot</description>
 	<packaging>pom</packaging>
@@ -31,7 +31,7 @@
 				<artifactId>gitflow-maven-plugin</artifactId>
 				<version>1.11.0</version>
 				<configuration>
-					 <mvnExecutable>~/.m2/wrapper/dists/apache-maven-3.6.0-bin/3rgjh30jneo7541hun7uggltkb/apache-maven-3.6.0/bin/mvn</mvnExecutable>
+					 <mvnExecutable>~/.m2/wrapper/dists/apache-maven-3.6.0-bin/2dakv70gp803gtm5ve1ufmvttn/apache-maven-3.6.0/bin/mvn</mvnExecutable>
 					<!-- <gitExecutable>path_to_git_executable</gitExecutable> -->
 
 					<installProject>false</installProject>
