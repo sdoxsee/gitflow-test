@@ -31,7 +31,7 @@
 				<artifactId>gitflow-maven-plugin</artifactId>
 				<version>1.11.0</version>
 				<configuration>
-					 <mvnExecutable>mvnw</mvnExecutable>
+					 <mvnExecutable>./mvnw</mvnExecutable>
 					<!-- <gitExecutable>path_to_git_executable</gitExecutable> -->
 
 					<installProject>false</installProject>
