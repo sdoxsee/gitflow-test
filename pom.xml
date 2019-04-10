@@ -59,12 +59,12 @@
 						<featureFinishMessage>[gitflow] Update versions for development branch</featureFinishMessage>
 
 						<hotfixStartMessage>[gitflow] Update versions for hotfix</hotfixStartMessage>
-						<hotfixFinishMessage>[gitflow] Update hotfix branch to non-snapshot versions</hotfixFinishMessage>
+						<hotfixFinishMessage>[gitflow] Update hotfix to non-snapshot versions</hotfixFinishMessage>
 
 						<hotfixVersionUpdateMessage>[gitflow] Update to hotfix version</hotfixVersionUpdateMessage>
 
 						<releaseStartMessage>[gitflow] Update versions for release</releaseStartMessage>
-						<releaseFinishMessage>[gitflow] Update release branch to non-snapshot versions</releaseFinishMessage>
+						<releaseFinishMessage>[gitflow] Update release to non-snapshot versions</releaseFinishMessage>
 
 						<releaseVersionUpdateMessage>[gitflow] Update for next development version</releaseVersionUpdateMessage>
 
@@ -88,4 +88,5 @@
 <!-- some comment made in hotfix/1.1.4 -->
 <!-- another change in dev 1.3.0-SNAPSHOT -->
 <!-- another hotfix change in 1.3.2 -->
+<!-- a hotfix 1.9.1 comment -->
 </project>
