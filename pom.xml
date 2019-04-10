@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>gitflow-test</artifactId>
-	<version>1.8.1</version>
+	<version>1.9.0</version>
 	<name>gitflow-test</name>
 	<description>Demo project for Spring Boot</description>
 	<packaging>pom</packaging>
@@ -55,7 +55,31 @@
 					<pushRemote>true</pushRemote>
 
 					<commitMessages>
-						<!-- since 1.2.1, see Customizing commit messages -->
+						<featureStartMessage>[gitflow] Update versions for feature branch</featureStartMessage>
+						<featureFinishMessage>[gitflow] Update versions for development branch</featureFinishMessage>
+
+						<hotfixStartMessage>[gitflow] Update versions for hotfix</hotfixStartMessage>
+						<hotfixFinishMessage>[gitflow] Update hotfix branch to non-snapshot versions</hotfixFinishMessage>
+
+						<hotfixVersionUpdateMessage>[gitflow] Update to hotfix version</hotfixVersionUpdateMessage>
+
+						<releaseStartMessage>[gitflow] Update versions for release</releaseStartMessage>
+						<releaseFinishMessage>[gitflow] Update release branch to non-snapshot versions</releaseFinishMessage>
+
+						<releaseVersionUpdateMessage>[gitflow] Update for next development version</releaseVersionUpdateMessage>
+
+						<!-- Default git merge commit message will be used if left empty or undefined. -->
+						<releaseFinishMergeMessage></releaseFinishMergeMessage>
+
+						<tagHotfixMessage>[gitflow] Tag hotfix</tagHotfixMessage>
+						<tagReleaseMessage>[gitflow] Tag release</tagReleaseMessage>
+
+						<!-- Migration Note: This was called <updateDevToAvoidConflitsMessage> in version 1.11.0, but has been deprecated in favour of the correctly spelt one below. -->
+						<updateDevToAvoidConflictsMessage>[gitflow] Update develop to production version to avoid merge conflicts</updateDevToAvoidConflictsMessage>
+						<updateDevBackPreMergeStateMessage>[gitflow] Update develop version back to pre-merge state</updateDevBackPreMergeStateMessage>
+						
+						<updateReleaseToAvoidConflictsMessage>[gitflow] Update release to hotfix version to avoid merge conflicts</updateReleaseToAvoidConflictsMessage>
+						<updateReleaseBackPreMergeStateMessage>[gitflow] Update release version back to pre-merge state</updateReleaseBackPreMergeStateMessage>
 					</commitMessages>
 				</configuration>
 			</plugin>
