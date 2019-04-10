@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>gitflow-test</artifactId>
-	<version>1.9.1</version>
+	<version>1.10.0</version>
 	<name>gitflow-test</name>
 	<description>Demo project for Spring Boot</description>
 	<packaging>pom</packaging>
@@ -59,12 +59,12 @@
 						<featureFinishMessage>[gitflow] Update versions for development branch</featureFinishMessage>
 
 						<hotfixStartMessage>[gitflow] Update versions for hotfix</hotfixStartMessage>
-						<hotfixFinishMessage>[gitflow] Update hotfix branch to non-snapshot versions</hotfixFinishMessage>
+						<hotfixFinishMessage>[gitflow] Update hotfix to non-snapshot versions</hotfixFinishMessage>
 
 						<hotfixVersionUpdateMessage>[gitflow] Update to hotfix version</hotfixVersionUpdateMessage>
 
 						<releaseStartMessage>[gitflow] Update versions for release</releaseStartMessage>
-						<releaseFinishMessage>[gitflow] Update release branch to non-snapshot versions</releaseFinishMessage>
+						<releaseFinishMessage>[gitflow] Update release to non-snapshot versions</releaseFinishMessage>
 
 						<releaseVersionUpdateMessage>[gitflow] Update for next development version</releaseVersionUpdateMessage>
 
