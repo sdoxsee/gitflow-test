@@ -29,7 +29,7 @@
 			<plugin>
 				<groupId>com.amashchenko.maven.plugin</groupId>
 				<artifactId>gitflow-maven-plugin</artifactId>
-				<version>1.11.0</version>
+				<version>1.12.0</version>
 				<configuration>
 					 <mvnExecutable>./mvnw</mvnExecutable>
 					<!-- <gitExecutable>path_to_git_executable</gitExecutable> -->
